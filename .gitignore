@@ -1,0 +1,29 @@
+# Config
+public/config/production.json
+public/config/development.json
+
+# Logs
+npm-debug.log*
+
+# NPM
+node_modules/
+
+# Transpiled code
+dist
+types
+.out
+
+# Dev tools
+.DS_Store
+.vscode
+.idea
+*.swp
+*.bak
+
+# CSS
+css
+
+node_modules.nosync/
+
+# Storybook
+storybook-static/
