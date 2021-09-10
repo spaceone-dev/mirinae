@@ -27,3 +27,5 @@ node_modules.nosync/
 
 # Storybook
 storybook-static/
+
+yarn-error.log
