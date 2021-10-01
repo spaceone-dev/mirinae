@@ -1,7 +1,7 @@
 import React from 'react';
 import renderer from 'react-test-renderer';
 
-import Badge from './Badge';
+import Badge from 'packages/badge/src/Badge';
 
 describe('Badge', () => {
     test('renders correctly', () => {

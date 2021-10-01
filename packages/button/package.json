@@ -3,8 +3,14 @@
   "version": "1.0.0-beta.1",
   "main": "lib/index.js",
   "module": "src/index.js",
+  "typings": "lib/index.d.ts",
+  "directories": {
+    "lib": "lib"
+  },
   "scripts": {
-    "bootstrap": "lerna bootstrap --use-workspaces"
+    "bootstrap": "lerna bootstrap --use-workspaces",
+    "build": "tsc -d",
+    "dev": "tsc --watch"
   },
   "dependencies": {
     "@emotion/react": "latest",

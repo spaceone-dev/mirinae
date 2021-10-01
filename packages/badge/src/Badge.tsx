@@ -1,5 +1,9 @@
 import styled from '@emotion/styled';
 
+interface BadgeType {
+    name: string;
+}
+
 const Badge = styled.p`
   border: 1px solid #ccc;
   border-radius: 4px;
