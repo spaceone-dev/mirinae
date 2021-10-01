@@ -7,4 +7,4 @@ export default {
     title: 'Design System/Button'
 };
 
-export const primary = () => <Button>{'Button'}</Button>;
+export const primary = () => <Button>Button</Button>;

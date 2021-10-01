@@ -1,0 +1,21 @@
+{
+  "name": "badge",
+  "version": "1.0.0",
+  "main": "lib/index.js",
+  "module": "src/index.js",
+  "scripts": {
+    "bootstrap": "lerna bootstrap --use-workspaces"
+  },
+  "dependencies": {
+    "react": "latest",
+    "react-dom": "latest",
+    "@emotion/react": "latest",
+    "@emotion/styled": "latest"
+  },
+  "peerDependencies": {
+    "react": "^16.0.0",
+    "@emotion/react": "^11.4.1",
+    "@emotion/styled": "^11.3.0",
+    "react-dom": "^16.0.0"
+  }
+}

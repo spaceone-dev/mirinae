@@ -4,6 +4,8 @@ public/config/development.json
 
 # Logs
 npm-debug.log*
+yarn-error.log
+lerna-debug.log
 
 # NPM
 node_modules/
@@ -28,7 +30,5 @@ node_modules.nosync/
 # Storybook
 storybook-static/
 
-yarn-error.log
-
 #jest
-.jest-cache 
+.jest-cache

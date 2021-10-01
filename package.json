@@ -36,7 +36,9 @@
     "storybook": "start-storybook -p 6006",
     "build-storybook": "build-storybook",
     "coverage": "jest --coverage",
-    "unit": "jest"
+    "unit": "jest",
+    "publish": "npx lerna publish",
+    "version": "npx lerna version"
   },
   "dependencies": {}
 }
