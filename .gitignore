@@ -29,3 +29,6 @@ node_modules.nosync/
 storybook-static/
 
 yarn-error.log
+
+#jest
+.jest-cache 
